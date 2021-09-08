@@ -13,8 +13,42 @@ public class Harvester implements Directions {
 
         int row = 2;
         int col = 2;
-        UrRobot bot = new UrRobot(row, col,
+        UrRobot bot = new UrRobot(3, 4,
                 East, 1);
-
+        bot.turnLeft();
+        bot.move();
+        bot.move();
+        bot.turnLeft();
+        bot.move();
+        bot.move();
+        bot.turnLeft();
+        bot.move();
+        bot.move();
+        bot.turnLeft();
+        bot.move();
+        bot.pickBeeper();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.move();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.move();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.move();
+        bot.move();
+        bot.putBeeper();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnLeft();
+        bot.turnOff();
     }
 }
